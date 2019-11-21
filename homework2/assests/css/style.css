@@ -1,0 +1,75 @@
+/*Standard changes*/
+.header-name{
+    color:white;
+    background: #59aaa5;
+  }
+  .main-title{
+    color:#59aaa5
+  }
+  img{
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+  }
+  .text{
+    position: absolute;
+    z-index: 1;
+    
+  }
+  hr{
+    border: 1.25px solid #cccccc;
+  }
+  footer{
+    border-top: 10px solid #4aaaa5;
+    background: #666666;
+    color:white;
+    text-align: center;
+  }
+  
+  /*media changes*/
+/*When the page width is at 640px or less*/  
+@media(max-width: 640px){
+/*standard for all pages*/
+    footer{
+    text-align: center;
+    }
+/*About me page*/
+    .selfie{
+      min-width: 600px;
+      min-height: 600px;
+      text-align: center;
+    }
+    .main-title{
+      text-align: center;
+    }
+/*Contact Me page*/
+    .btn{
+      background: #4aaaa5 !important;
+    }
+/*Portfolio*/
+
+    .image-responsive{
+      max-width:  600px;
+      max-height: 600px;
+    }
+}
+
+@media(max-width: 768px){
+  .container-fluid{}
+
+  img{
+    max-width: 275px;
+    max-height:300px;
+
+  }
+  .col-sm-4{
+    padding-right: 300px;
+  }
+  .col-md-7{
+   padding:0;
+  }
+}
+
+@media(min-width: 960px){
+
+}
